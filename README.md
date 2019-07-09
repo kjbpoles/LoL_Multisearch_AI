@@ -1,3 +1,3 @@
-# LOL_multisearchAI
+# LoL_Multisearch_AI
 
 kjbpoles / youjeongsue
