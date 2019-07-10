@@ -1,0 +1,69 @@
+#logo {
+    width: 650px;
+    border: 1px solid #dddddd;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#logo_text {
+    width: 350px;
+    padding: 3px;
+    margin: 5px;
+}
+
+#result {
+    width: 860px;
+    height: 1175px;
+    border: 1px solid #dddddd;
+    background-color: #eeeeee;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#multi {
+    width: 830px;
+    height: 1150px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+#rate{
+    text-align: left;
+    width: 830px;
+    height: 120px;
+    border: 1px solid gray;
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#multi_result {
+    width: 830px;
+    height: 700px;
+}
+
+td {
+    border: 1px solid gray;
+}
+
+.table_name {
+    width: 200px;
+    height: 200px;
+}
+
+.table_best {
+    width: 200px;
+    height: 200px;
+}
+
+.table_most {
+    width: 200px;
+    height: 200px;
+}
+
+.table_recent {
+    width: 230px;
+    height: 200px;
+}
