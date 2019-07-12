@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="result.css">
     <script src="https://kit.fontawesome.com/728d2b8135.js"></script>
     <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="index.css"/>
 </head>
 <body>
     <div class="container" id="logo">
@@ -12,5 +13,14 @@
         <input type="text" id="logo_text">
         <a href="result.html"><button class="btn btn-success btn-md"><i class="fas fa-search"></i></button></a>
     </div>
+    
+    <div class="multi_search">
+        <form class="multi_search_form" action="result.html" autocomplete="off">
+        <!--action="result.html" -> script-->
+            <textarea id="multi_input" placeholder="채팅창 복사 붙여넣기 or 소환사명,소환사명, ..." rows="10" cols="70"></textarea><br>
+            <input type="submit" value="search!"></input>
+        </form>
+    </div>
+    
 </body>
 </html>
