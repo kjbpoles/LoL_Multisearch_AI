@@ -21,6 +21,34 @@
             <input type="submit" value="search!"></input>
         </form>
     </div>
-    
+
+    <div id="setTable"></div>
+
+    <!-- return numOfUsers to multiSearchTable, python -->
+    <script type="text/javascript">
+    function returnToTable(){
+        var num = 3;
+        return num;
+    }
+    </script>
+
+    <!--make multi search table-->
+    <script type="text/javascript">
+
+    var nameList = ["산 공","서포터앤코","곧갱갈갱"];
+    var iterNum = returnToTable();
+
+    for(var name in nameList){
+        var td = document.createElement( "div" );
+            td.textContent = nameList[name];
+            td.style.border = "1px solid #92acbb"; 
+            td.style.padding = "3px";
+
+        var table = document.createElement( "div" ); 
+            table.append( td );
+
+        setTable.appendChild( table );
+    </script>
+</html>
 </body>
 </html>
