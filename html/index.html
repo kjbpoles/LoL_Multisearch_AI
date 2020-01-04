@@ -2,14 +2,15 @@
 <html lang="ko">
 <head>
     <title>멀티서치 & 승률예측</title>
-    <link rel="stylesheet" href="result.css">
     <script src="https://kit.fontawesome.com/728d2b8135.js"></script>
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="../css/result.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/index.css"/>
 </head>
 <body>
     <div class="container" id="logo">
-        <a href="index.html"><img src="logo.jpg"></a>
+        <a href="index.html"><img src="../img/logo.jpg"></a>
         <input type="text" id="logo_text">
         <a href="result.html"><button class="btn btn-success btn-md"><i class="fas fa-search"></i></button></a>
     </div>
@@ -50,6 +51,17 @@
         setTable.appendChild( table );
     }
     </script>
+
+    <!--progress를 이용하여 1초에 한번씩 10% 증가하는 js 동작
+    <progress value="0" max="100"></progress>
+    <script>
+        const progress = document.querySelector('progress');
+        const interval = setInterval(function(){
+            progress.value += 10;
+            if (progress.value >= 100) clearInterval(interval);
+        }, 1000)
+    </script>
+    -->
 </html>
 </body>
 </html>
